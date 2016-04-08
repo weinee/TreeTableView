@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  TreeTableView
+//
+//  Created by weinee on 16/4/8.
+//  Copyright © 2016年 yixiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+SDAutoLayout.h"
+#import "UITableView+SDAutoTableViewCellHeight.h"
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kFontOfSize(fontSize) [UIFont fontWithName:@"STHeitiSC-Light" size:fontSize]
+#define PI 3.1415
+
+#endif /* PrefixHeader_pch */

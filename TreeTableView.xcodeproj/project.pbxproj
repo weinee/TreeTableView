@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		782387871CB797F500C5EB80 /* TreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 782387851CB797F500C5EB80 /* TreeTableView.m */; };
+		7823878A1CB7982E00C5EB80 /* TreeNodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 782387891CB7982E00C5EB80 /* TreeNodeModel.m */; };
+		7823878D1CB7994E00C5EB80 /* AddrOrgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823878C1CB7994E00C5EB80 /* AddrOrgModel.m */; };
+		782387921CB7995F00C5EB80 /* AddrOrgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823878F1CB7995F00C5EB80 /* AddrOrgCell.m */; };
+		782387931CB7995F00C5EB80 /* AddrOrgNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 782387911CB7995F00C5EB80 /* AddrOrgNormalCell.m */; };
+		782387971CB799F700C5EB80 /* PersDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 782387961CB799F700C5EB80 /* PersDetailModel.m */; };
+		7823879C1CB79A3200C5EB80 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 782387991CB79A3100C5EB80 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		7823879D1CB79A3200C5EB80 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823879B1CB79A3100C5EB80 /* UIView+SDAutoLayout.m */; };
 		DAC385D41B46A6B6002CAEDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385D31B46A6B6002CAEDE /* main.m */; };
 		DAC385D71B46A6B6002CAEDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385D61B46A6B6002CAEDE /* AppDelegate.m */; };
 		DAC385DA1B46A6B6002CAEDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385D91B46A6B6002CAEDE /* ViewController.m */; };
@@ -14,8 +22,6 @@
 		DAC385DF1B46A6B6002CAEDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC385DE1B46A6B6002CAEDE /* Images.xcassets */; };
 		DAC385E21B46A6B6002CAEDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAC385E01B46A6B6002CAEDE /* LaunchScreen.xib */; };
 		DAC385EE1B46A6B6002CAEDE /* TreeTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385ED1B46A6B6002CAEDE /* TreeTableViewTests.m */; };
-		DAC385FB1B46AD76002CAEDE /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385FA1B46AD76002CAEDE /* Node.m */; };
-		DAC385FE1B46AFDB002CAEDE /* TreeTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC385FD1B46AFDB002CAEDE /* TreeTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		782387841CB797F500C5EB80 /* TreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableView.h; sourceTree = "<group>"; };
+		782387851CB797F500C5EB80 /* TreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableView.m; sourceTree = "<group>"; };
+		782387881CB7982E00C5EB80 /* TreeNodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TreeNodeModel.h; path = ../Model/TreeNodeModel.h; sourceTree = "<group>"; };
+		782387891CB7982E00C5EB80 /* TreeNodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TreeNodeModel.m; path = ../Model/TreeNodeModel.m; sourceTree = "<group>"; };
+		7823878B1CB7994E00C5EB80 /* AddrOrgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddrOrgModel.h; sourceTree = "<group>"; };
+		7823878C1CB7994E00C5EB80 /* AddrOrgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddrOrgModel.m; sourceTree = "<group>"; };
+		7823878E1CB7995F00C5EB80 /* AddrOrgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddrOrgCell.h; sourceTree = "<group>"; };
+		7823878F1CB7995F00C5EB80 /* AddrOrgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddrOrgCell.m; sourceTree = "<group>"; };
+		782387901CB7995F00C5EB80 /* AddrOrgNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddrOrgNormalCell.h; sourceTree = "<group>"; };
+		782387911CB7995F00C5EB80 /* AddrOrgNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddrOrgNormalCell.m; sourceTree = "<group>"; };
+		782387951CB799F700C5EB80 /* PersDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersDetailModel.h; sourceTree = "<group>"; };
+		782387961CB799F700C5EB80 /* PersDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersDetailModel.m; sourceTree = "<group>"; };
+		782387981CB79A3100C5EB80 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		782387991CB79A3100C5EB80 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		7823879A1CB79A3100C5EB80 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		7823879B1CB79A3100C5EB80 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		7823879F1CB79A7B00C5EB80 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DAC385CE1B46A6B6002CAEDE /* TreeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC385D21B46A6B6002CAEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC385D31B46A6B6002CAEDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,10 +65,6 @@
 		DAC385E71B46A6B6002CAEDE /* TreeTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC385EC1B46A6B6002CAEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC385ED1B46A6B6002CAEDE /* TreeTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTableViewTests.m; sourceTree = "<group>"; };
-		DAC385F91B46AD76002CAEDE /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
-		DAC385FA1B46AD76002CAEDE /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
-		DAC385FC1B46AFDB002CAEDE /* TreeTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTableView.h; sourceTree = "<group>"; };
-		DAC385FD1B46AFDB002CAEDE /* TreeTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +85,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		782387941CB7996200C5EB80 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				7823878E1CB7995F00C5EB80 /* AddrOrgCell.h */,
+				7823878F1CB7995F00C5EB80 /* AddrOrgCell.m */,
+				782387901CB7995F00C5EB80 /* AddrOrgNormalCell.h */,
+				782387911CB7995F00C5EB80 /* AddrOrgNormalCell.m */,
+			);
+			name = customCell;
+			sourceTree = "<group>";
+		};
+		7823879E1CB79A3900C5EB80 /* SDAutolayout */ = {
+			isa = PBXGroup;
+			children = (
+				782387981CB79A3100C5EB80 /* UITableView+SDAutoTableViewCellHeight.h */,
+				782387991CB79A3100C5EB80 /* UITableView+SDAutoTableViewCellHeight.m */,
+				7823879A1CB79A3100C5EB80 /* UIView+SDAutoLayout.h */,
+				7823879B1CB79A3100C5EB80 /* UIView+SDAutoLayout.m */,
+			);
+			name = SDAutolayout;
+			sourceTree = "<group>";
+		};
 		DAC385C51B46A6B6002CAEDE = {
 			isa = PBXGroup;
 			children = (
@@ -87,8 +128,10 @@
 		DAC385D01B46A6B6002CAEDE /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				7823879E1CB79A3900C5EB80 /* SDAutolayout */,
+				782387941CB7996200C5EB80 /* customCell */,
 				DAC385F81B46AD1C002CAEDE /* Model */,
-				DAC385F71B46AD0F002CAEDE /* View */,
+				DAC385F71B46AD0F002CAEDE /* TreeTableView */,
 				DAC385D51B46A6B6002CAEDE /* AppDelegate.h */,
 				DAC385D61B46A6B6002CAEDE /* AppDelegate.m */,
 				DAC385D81B46A6B6002CAEDE /* ViewController.h */,
@@ -106,6 +149,7 @@
 			children = (
 				DAC385D21B46A6B6002CAEDE /* Info.plist */,
 				DAC385D31B46A6B6002CAEDE /* main.m */,
+				7823879F1CB79A7B00C5EB80 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,20 +171,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DAC385F71B46AD0F002CAEDE /* View */ = {
+		DAC385F71B46AD0F002CAEDE /* TreeTableView */ = {
 			isa = PBXGroup;
 			children = (
-				DAC385FC1B46AFDB002CAEDE /* TreeTableView.h */,
-				DAC385FD1B46AFDB002CAEDE /* TreeTableView.m */,
+				782387881CB7982E00C5EB80 /* TreeNodeModel.h */,
+				782387891CB7982E00C5EB80 /* TreeNodeModel.m */,
+				782387841CB797F500C5EB80 /* TreeTableView.h */,
+				782387851CB797F500C5EB80 /* TreeTableView.m */,
 			);
+			name = TreeTableView;
 			path = View;
 			sourceTree = "<group>";
 		};
 		DAC385F81B46AD1C002CAEDE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DAC385F91B46AD76002CAEDE /* Node.h */,
-				DAC385FA1B46AD76002CAEDE /* Node.m */,
+				782387951CB799F700C5EB80 /* PersDetailModel.h */,
+				782387961CB799F700C5EB80 /* PersDetailModel.m */,
+				7823878B1CB7994E00C5EB80 /* AddrOrgModel.h */,
+				7823878C1CB7994E00C5EB80 /* AddrOrgModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,11 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7823879D1CB79A3200C5EB80 /* UIView+SDAutoLayout.m in Sources */,
+				782387921CB7995F00C5EB80 /* AddrOrgCell.m in Sources */,
+				7823878A1CB7982E00C5EB80 /* TreeNodeModel.m in Sources */,
+				782387971CB799F700C5EB80 /* PersDetailModel.m in Sources */,
+				782387931CB7995F00C5EB80 /* AddrOrgNormalCell.m in Sources */,
+				7823879C1CB79A3200C5EB80 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				7823878D1CB7994E00C5EB80 /* AddrOrgModel.m in Sources */,
 				DAC385DA1B46A6B6002CAEDE /* ViewController.m in Sources */,
+				782387871CB797F500C5EB80 /* TreeTableView.m in Sources */,
 				DAC385D71B46A6B6002CAEDE /* AppDelegate.m in Sources */,
-				DAC385FE1B46AFDB002CAEDE /* TreeTableView.m in Sources */,
 				DAC385D41B46A6B6002CAEDE /* main.m in Sources */,
-				DAC385FB1B46AD76002CAEDE /* Node.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +430,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TreeTableView/PrefixHeader.pch";
 				INFOPLIST_FILE = TreeTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +442,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/TreeTableView/PrefixHeader.pch";
 				INFOPLIST_FILE = TreeTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +503,7 @@
 				DAC385F31B46A6B6002CAEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAC385F41B46A6B6002CAEDE /* Build configuration list for PBXNativeTarget "TreeTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +512,7 @@
 				DAC385F61B46A6B6002CAEDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -6,17 +6,18 @@
 //  Copyright (c) 2015年 yixiang. All rights reserved.
 //
 
-#import "Node.h"
+#import "TreeNodeModel.h"
 
-@implementation Node
+@implementation TreeNodeModel
 
-- (instancetype)initWithParentId : (int)parentId nodeId : (int)nodeId name : (NSString *)name depth : (int)depth expand : (BOOL)expand{
+- (instancetype)initWithParentId : (int)parentId nodeId : (int)nodeId name : (NSString *)name isLeaf : (BOOL)leaf expand : (BOOL)expand{
     self = [self init];
     if (self) {
         self.parentId = parentId;
         self.nodeId = nodeId;
         self.name = name;
-        self.depth = depth;
+				self.isLeaf = leaf;
+        self.depth = 0;
         self.expand = expand;
     }
     return self;
